@@ -1,0 +1,288 @@
+Skip welcome & menu and move to editor
+ 
+Textarea editor mode
+JS Bin features
+Getting started
+Keyboard Shortcuts
+Exporting/importing gist
+ 
+Pro features
+Private bins
+Vanity URLs
+Upgrade to pro now
+ 
+Blog
+The Return and The Refactor
+Help
+Feature list
+Vanity URLs
+ 
+Donate to JS Bin ❤
+Support JS Bin to keep the project open source & MIT for all
+Follow @js_bin on twitter
+By using JS Bin you agree to our legal terms
+ 
+“Everyone should learn how to program a computer because it teaches you how to think” —
+Steve Jobs
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Your birth month: may"
+"Your fortune for may: Love is in the air for you!"
+undefined
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Invalid input. Please enter your birth month."
+undefined
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Your birth month: may"
+"Your fortune for may: Love is in the air for you!"
+undefined
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Your birth month: november"
+"Your fortune for november: Unexpected opportunities will come your way!"
+undefined
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Your birth month: april"
+"Your fortune for april: Love is in the air for you!"
+undefined
+const userBirthMonth = prompt("Enter your birth month:");
+
+    function generateRandomFortune() {
+      const fortunes = [
+        "You will have a prosperous year!",
+        "Love is in the air for you!",
+        "Unexpected opportunities will come your way!",
+        // Add more fortunes as needed
+      ];
+      const randomIndex = Math.floor(Math.random() * fortunes.length);
+      return fortunes[randomIndex];
+    }
+
+    // Prompt the user for their birth month
+
+    if (userBirthMonth) {
+      const lowercaseMonth = userBirthMonth.toLowerCase();
+
+      switch (lowercaseMonth) {
+        case 'january':
+        case 'february':
+        case 'march':
+        case 'april':
+        case 'may':
+        case 'june':
+        case 'july':
+        case 'august':
+        case 'september':
+        case 'october':
+        case 'november':
+        case 'december':
+          console.log(`Your birth month: ${userBirthMonth}`);
+          const fortune = generateRandomFortune();
+          console.log(`Your fortune for ${userBirthMonth}: ${fortune}`);
+          break;
+        default:
+          console.log('Invalid month entered. Please enter a valid month.');
+      }
+    } else {
+      console.log('Invalid input. Please enter your birth month.');
+    }
+"Your birth month: april"
+"Your fortune for april: Love is in the air for you!"
